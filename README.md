@@ -30,5 +30,5 @@ There’s full documentation on installing Docker at ``docker.com``, but in a fe
 + Run this command in the terminal: ``docker run hello-world``
 + This will give you output confirming your installation of docker has worked: ``Hello from Docker``
 + In the docker terminal, run (This operation requires a good internet connection to download ~2.5Gb; it will take some minutes):  ``docker pull deepub/deepub``    
-+ Run the DeepUB image on your system: ``docker run -p 8888:8888 deepub/deepub``
++ Run the DeepUB image on your system: ``docker run -i -t -p 8888:8888 deepub/deepub``
 + Once these steps have been done, you can check the installation by starting your web browser and introducing this  URL: ``http://localhost:8888`` (or ``http://<DOCKER-MACHINE-IP>:8888`` if you are using a Docker Machine VM) to access to the fully operational Jupyter notebook of this course. (Note: the address of your Docker Machine VM is printed at the end of the Docker booting process, just after the ASCII whale).
