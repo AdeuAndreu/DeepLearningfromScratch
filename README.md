@@ -39,7 +39,7 @@ There’s full documentation on installing Docker at ``docker.com``, but in a fe
 
 Under the hood, Docker actually uses VirtualBox to run its images, and we’ll use its control panel to manage the setup. To do that, we’ll need to take the following steps:
 
-+ Find the VirtualBox application on your Mac. I like to use spotlight to find and open it, so I don’t have to hunt around on the file system.
++ Find the VirtualBox application on your Mac/PC. 
 + Once VirtualBox is open, you should see a left-hand pane showing virtual machines. There should be one called ‘default’ that’s running.
 + Right-click on ‘default’ to bring up the context menu and chose ‘Close->ACPI Shutdown’. The other close options should also work, but this is the most clean.
 + Once the shutdown is complete, ‘default’ should have the text ‘Powered off’ below it. Right click on it again and choose ‘Settings…’ from the menu.
