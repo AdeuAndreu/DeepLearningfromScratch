@@ -18,7 +18,7 @@ This course will cover the basics of deep learning by using a hands-on approach.
 
 ## Course Software Installation
 
-There’s full documentation on installing Docker at ``docker.com``, but in a few words, the steps are:
+The best way to run the course software is to use a Docker container. There’s full documentation on installing Docker at ``docker.com``, but in a few words, the steps are:
 
 + Go to ``docs.docker.com`` in your browser.
 + Step one of the instructions sends you to download the Docker Toolbox.
