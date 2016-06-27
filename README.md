@@ -33,7 +33,9 @@ There’s full documentation on installing Docker at ``docker.com``, but in a fe
 + Run the DeepUB image on your system: ``docker run -i -t -p 8888:8888 deepub/deepub``
 + Once these steps have been done, you can check the installation by starting your web browser and introducing this  URL: ``http://localhost:8888`` (or ``http://<DOCKER-MACHINE-IP>:8888`` if you are using a Docker Machine VM) to access to the fully operational Jupyter notebook of this course. (Note: the address of your Docker Machine VM is printed at the end of the Docker booting process, just after the ASCII whale).
 
-## Docker Optimization (Source: https://petewarden.com/2016/02/28/tensorflow-for-poets/)
+## Docker Optimization 
+
+(Source: https://petewarden.com/2016/02/28/tensorflow-for-poets/)
 
 Under the hood, Docker actually uses VirtualBox to run its images, and we’ll use its control panel to manage the setup. To do that, we’ll need to take the following steps:
 
