@@ -35,16 +35,16 @@ The best way to run the course software is to use a Docker container. There’s 
 
 ## Docker Optimization 
 
-(Source: https://petewarden.com/2016/02/28/tensorflow-for-poets/)
+(Source: ``https://petewarden.com/2016/02/28/tensorflow-for-poets/``)
 
 Under the hood, Docker actually uses VirtualBox to run its images, and we’ll use its control panel to manage the setup. To do that, we’ll need to take the following steps:
 
 + Find the VirtualBox application on your Mac/PC. 
-+ Once VirtualBox is open, you should see a left-hand pane showing virtual machines. There should be one called ‘default’ that’s running.
-+ Right-click on ‘default’ to bring up the context menu and chose ‘Close->ACPI Shutdown’. The other close options should also work, but this is the most clean.
-+ Once the shutdown is complete, ‘default’ should have the text ‘Powered off’ below it. Right click on it again and choose ‘Settings…’ from the menu.
-+ Click on the ‘System’ icon, and then choose the ‘Motherboard’ tab.
-+ Drag the ‘Base Memory’ slider as far as the green section goes, which is normally around 75% of your total laptop’s memory. 
-+ Click on the ‘Processor’ tab, and set the number of processors higher than the default of 1. 
-+ Click ‘OK’ on the settings dialog.
-+ Right-click on ‘default’ and choose ‘Start->Headless Start’.
++ Once VirtualBox is open, you should see a left-hand pane showing virtual machines. There should be one called ``default`` that’s running.
++ Right-click on ``default`` to bring up the context menu and chose ``Close->ACPI Shutdown``. The other close options should also work, but this is the most clean.
++ Once the shutdown is complete, ``default`` should have the text ``Powered off`` below it. Right click on it again and choose ``Settings…`` from the menu.
++ Click on the ``System`` icon, and then choose the ``Motherboard`` tab.
++ Drag the ``Base Memory`` slider as far as the green section goes, which is normally around 75% of your total laptop’s memory. 
++ Click on the ``Processor`` tab, and set the number of processors higher than the default of 1. 
++ Click ``OK`` on the settings dialog.
++ Right-click on ``default`` and choose ``Start->Headless Start``.
